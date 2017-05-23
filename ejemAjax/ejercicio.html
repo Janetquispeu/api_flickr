@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+</body>
+</html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+ <title>ejercicio usando Ajax</title>
+</head>
+<body>
+	<button type="button" id="btnDiv">DIV</button>
+	<button type="button" id="btnTabla">TABLA</button>
+	<div class="table">
+		<div id="tHead">
+			<div class="tr_head tr_user">
+				<div class="td_head">userId</div>
+			</div>
+			<div class="tr_head tr_id">
+				<div class="td_head">id</div>
+			</div>
+			<div class="tr_head">
+				<div class="td_title td_head">Title</div>
+			</div>
+			<div class="tr_head">
+				<div class="td_body td_head">Body</div>
+			</div>
+		</div>
+		<div id="tBody"></div>
+	</div>
+
+<script type="text/template" id="tplTemplate">
+	<div class="container_tr">
+		<div class="trBody tr_user">
+			<div class="td_body"><%=mivariable_user%></div>
+		</div>
+		<div class="trBody tr_id">
+			<div class="td_body"><%=mivariable_id%></div>
+		</div>
+		<div class="trBody">
+			<div class="td_title td_body"><%=mivariable_title%></div>
+		</div>
+		<div class="trBody">
+			<div class="td_body td_body"><%=mivariable_body%></div>
+		</div>
+	</div>
+		
+</script>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+</body>
+</html>

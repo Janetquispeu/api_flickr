@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    height: 150px;
+    padding: 0 2%;
+    border: 1px solid black;
+}
+.fondoAmarillo{
+	background-color: #FFFFCC;
+}
+.fondoAzul{
+	background-color: #CCE6FF;
+}
