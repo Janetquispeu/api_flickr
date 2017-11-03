@@ -1,4 +1,4 @@
-function Banner(){
+/*function Banner(){
   
   var keyword = "HoLA !!!";
   var canvas;
@@ -153,4 +153,4 @@ function Banner(){
 }
 
 var banner = new Banner();
-banner.initialize("canvas");
+banner.initialize("canvas");*/
